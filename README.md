@@ -1,6 +1,6 @@
 # crystal_navigate
 
-TODO: Write a description here
+A simple port of https://github.com/jonatasrancan/navigate to Crystal language
 
 ## Installation
 
@@ -9,7 +9,7 @@ Add this to your application's `shard.yml`:
 ```yaml
 dependencies:
   crystal_navigate:
-    github: [your-github-name]/crystal_navigate
+    github: jonatasrancan/crystal_navigate
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ TODO: Write development instructions here
 
 ## Contributing
 
-1. Fork it ( https://github.com/[your-github-name]/crystal_navigate/fork )
+1. Fork it ( https://github.com/jonatasrancan/crystal_navigate/fork )
 2. Create your feature branch (git checkout -b my-new-feature)
 3. Commit your changes (git commit -am 'Add some feature')
 4. Push to the branch (git push origin my-new-feature)
@@ -34,4 +34,4 @@ TODO: Write development instructions here
 
 ## Contributors
 
-- [[your-github-name]](https://github.com/[your-github-name]) Jônatas Rancan - creator, maintainer
+- [jonatasrancan](https://github.com/jonatasrancan) Jônatas Rancan - creator, maintainer
