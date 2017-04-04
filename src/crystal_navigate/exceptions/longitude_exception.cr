@@ -1,0 +1,2 @@
+class LongitudeException < Exception
+end

@@ -1,0 +1,2 @@
+class LatitudeException < Exception
+end
