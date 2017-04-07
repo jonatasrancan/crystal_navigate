@@ -9,6 +9,14 @@ module CrystalNavigate
       valid?
     end
 
+    def latitude
+      @latitude
+    end
+
+    def longitude
+      @longitude
+    end
+
     private def valid_latitude?
       raise LatitudeException.new unless (-90.0..90.0).includes?(@latitude)
 

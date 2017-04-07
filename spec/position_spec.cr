@@ -22,4 +22,20 @@ describe CrystalNavigate::Position do
       CrystalNavigate::Position.new(90.0, 180.0).should be_a(CrystalNavigate::Position)
     end
   end
+
+  context "#latitude" do
+    it "returns the Position latitude" do
+      position = CrystalNavigate::Position.new(90.0, 180.0)
+
+      position.latitude.should eq 90.0
+    end
+  end
+
+  context "#longitude" do
+    it "returns the Position longitude" do
+      position = CrystalNavigate::Position.new(90.0, 180.0)
+
+      position.longitude.should eq 180.0
+    end
+  end
 end
