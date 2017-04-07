@@ -1,0 +1,2 @@
+class BearingException < Exception
+end
