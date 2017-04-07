@@ -18,12 +18,6 @@ dependencies:
 require "crystal_navigate"
 ```
 
-TODO: Write usage instructions here
-
-## Development
-
-TODO: Write development instructions here
-
 ## Contributing
 
 1. Fork it ( https://github.com/jonatasrancan/crystal_navigate/fork )
