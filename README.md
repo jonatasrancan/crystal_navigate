@@ -1,6 +1,7 @@
 # crystal_navigate
+A small lib to help with some geolocation calcualtions
 
-A simple port of https://github.com/jonatasrancan/navigate to Crystal language
+It's a simple port of https://github.com/jonatasrancan/navigate
 
 ## Installation
 
