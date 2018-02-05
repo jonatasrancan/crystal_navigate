@@ -8,12 +8,12 @@ module CrystalNavigate
     @distance : Float64
     @radius_unit : Float64
 
-    def initialize(position : Position, bearing : Float64, distance : Float64, radius_unit = "KM")
+    def initialize(position : Position, bearing : Float64, distance : Float64, radius_unit = EarthRadius::KM)
       @latitude = position.latitude
       @longitude = position.longitude
       @bearing = bearing
       @distance = distance
-      @radius_unit = EARTH_RADIUS[radius_unit]
+      @radius_unit = radius_unit
 
       valid_bearing?
     end

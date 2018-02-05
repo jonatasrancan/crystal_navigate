@@ -18,7 +18,7 @@ describe CrystalNavigate::Distance do
         position1 = CrystalNavigate::Position.new(45.66, 150.66)
         position2 = CrystalNavigate::Position.new(45.66, 100.66)
 
-        distance = CrystalNavigate::Distance.new(position1, position2, "NM").calculate
+        distance = CrystalNavigate::Distance.new(position1, position2, EarthRadius::NM).calculate
 
         distance.should eq 2062.9900984330384
       end
