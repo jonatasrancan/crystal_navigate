@@ -45,7 +45,7 @@ describe CrystalNavigate::Destination do
         bearing = 200.00
         distance = 20.00
 
-        destination = CrystalNavigate::Destination.new(position, bearing, distance, "NM").calculate
+        destination = CrystalNavigate::Destination.new(position, bearing, distance, EarthRadius::NM).calculate
 
         destination.latitude.should eq 83.705720963007295
         destination.longitude.should eq -5.1635531200884452

@@ -6,12 +6,12 @@ module CrystalNavigate
     @longitude2 : Float64
     @radius_unit : Float64
 
-    def initialize(position1 : Position, position2 : Position, radius_unit = "KM")
+    def initialize(position1 : Position, position2 : Position, radius_unit = EarthRadius::KM)
       @latitude1 = Conversions.to_radians(position1.latitude)
       @longitude1 = Conversions.to_radians(position1.longitude)
       @latitude2 = Conversions.to_radians(position2.latitude)
       @longitude2 = Conversions.to_radians(position2.longitude)
-      @radius_unit = EARTH_RADIUS[radius_unit]
+      @radius_unit = radius_unit
     end
 
     def calculate

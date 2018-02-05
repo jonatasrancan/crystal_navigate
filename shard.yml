@@ -1,9 +1,8 @@
 name: crystal_navigate
-version: 0.1.0
+version: 0.2.0
 
 authors:
   - Jônatas Rancan <jonatasrancan@gmail.com>
 
-crystal: 0.21.1
 
 license: MIT
